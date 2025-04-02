@@ -1,0 +1,19 @@
+{
+  "name": "ts-client",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "jwt-decode": "^4.0.0",
+    "ts-alias": "^0.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
